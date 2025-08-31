@@ -1,0 +1,106 @@
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 32BA-9E4B
+
+ Содержимое папки C:\Users\youhu\Desktop\act_talk_project\src
+
+04.08.2025  16:18    <DIR>          .
+04.08.2025  16:18    <DIR>          ..
+04.08.2025  16:58    <DIR>          app
+04.08.2025  16:40    <DIR>          components
+04.08.2025  13:06    <DIR>          constants
+04.08.2025  13:06    <DIR>          lib
+04.08.2025  13:06    <DIR>          types
+               0 файлов              0 байт
+
+ Содержимое папки C:\Users\youhu\Desktop\act_talk_project\src\app
+
+04.08.2025  16:58    <DIR>          .
+04.08.2025  16:58    <DIR>          ..
+04.08.2025  12:25            25 931 favicon.ico
+04.08.2025  13:13             4 168 globals.css
+04.08.2025  12:25               689 layout.tsx
+04.08.2025  21:30               369 page.tsx
+               4 файлов         31 157 байт
+
+ Содержимое папки C:\Users\youhu\Desktop\act_talk_project\src\components
+
+04.08.2025  16:40    <DIR>          .
+04.08.2025  16:40    <DIR>          ..
+04.08.2025  16:52    <DIR>          forms
+04.08.2025  16:50    <DIR>          layout
+04.08.2025  16:50    <DIR>          shared
+04.08.2025  17:03    <DIR>          ui
+               0 файлов              0 байт
+
+ Содержимое папки C:\Users\youhu\Desktop\act_talk_project\src\components\forms
+
+04.08.2025  16:52    <DIR>          .
+04.08.2025  16:52    <DIR>          ..
+04.08.2025  16:52             9 217 joinroomform.ts
+04.08.2025  16:51             9 634 pincodeform.ts
+04.08.2025  16:51             6 190 usernameform.ts
+               3 файлов         25 041 байт
+
+ Содержимое папки C:\Users\youhu\Desktop\act_talk_project\src\components\layout
+
+04.08.2025  16:50    <DIR>          .
+04.08.2025  16:50    <DIR>          ..
+04.08.2025  16:50             5 594 chatlayout.ts
+04.08.2025  16:50             1 932 mainlayout.ts
+04.08.2025  16:49             4 783 steplayout.ts
+               3 файлов         12 309 байт
+
+ Содержимое папки C:\Users\youhu\Desktop\act_talk_project\src\components\shared
+
+04.08.2025  16:50    <DIR>          .
+04.08.2025  16:50    <DIR>          ..
+04.08.2025  16:46             1 399 container.ts
+04.08.2025  16:47             3 000 headerupdated.ts
+04.08.2025  16:44             1 475 LoadingSpinner.ts
+04.08.2025  16:48             3 127 protocolindicator.ts
+               4 файлов          9 001 байт
+
+ Содержимое папки C:\Users\youhu\Desktop\act_talk_project\src\components\ui
+
+04.08.2025  17:03    <DIR>          .
+04.08.2025  17:03    <DIR>          ..
+04.08.2025  16:37             1 097 avatar.tsx
+04.08.2025  16:37             1 631 badge.tsx
+04.08.2025  17:03             2 123 button.tsx
+04.08.2025  16:37             3 982 dialog.tsx
+04.08.2025  16:37               967 input.tsx
+04.08.2025  16:37               740 progress.tsx
+04.08.2025  16:37               699 separator.tsx
+04.08.2025  16:37               564 sonner.tsx
+               8 файлов         11 803 байт
+
+ Содержимое папки C:\Users\youhu\Desktop\act_talk_project\src\constants
+
+04.08.2025  13:06    <DIR>          .
+04.08.2025  13:06    <DIR>          ..
+04.08.2025  11:38               637 matrix.ts
+04.08.2025  11:38               641 routes.ts
+04.08.2025  11:38               841 ui.ts
+               3 файлов          2 119 байт
+
+ Содержимое папки C:\Users\youhu\Desktop\act_talk_project\src\lib
+
+04.08.2025  13:06    <DIR>          .
+04.08.2025  13:06    <DIR>          ..
+04.08.2025  13:13               166 utils.ts
+04.08.2025  11:39             3 680 validation.ts
+               2 файлов          3 846 байт
+
+ Содержимое папки C:\Users\youhu\Desktop\act_talk_project\src\types
+
+04.08.2025  13:06    <DIR>          .
+04.08.2025  13:06    <DIR>          ..
+04.08.2025  13:32               842 api.ts
+04.08.2025  11:35               851 chat.ts
+04.08.2025  13:31               563 matrix.ts
+04.08.2025  13:32               363 user.ts
+               4 файлов          2 619 байт
+
+     Всего файлов:
+              31 файлов         97 895 байт
+              29 папок  90 633 482 240 байт свободно
