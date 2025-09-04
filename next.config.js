@@ -9,8 +9,6 @@ const nextConfig = {
       'zustand',
       'matrix-js-sdk'
     ],
-    // Enable server actions if needed in future
-    serverActions: true,
   },
 
   // Image optimization
@@ -32,28 +30,34 @@ const nextConfig = {
     NEXT_PUBLIC_MATRIX_SERVER_NAME: process.env.NEXT_PUBLIC_MATRIX_SERVER_NAME,
   },
 
-  // Webpack configuration
-  webpack: (config, { isServer }) => {
-    // Handle WebSocket and Matrix SDK in browser
-    if (!isServer) {
-      config.resolve.fallback = {
-        ...config.resolve.fallback,
-        fs: false,
-        path: false,
-        crypto: false,
-        stream: false,
-        util: false,
-        buffer: require.resolve('buffer'),
-      }
-    }
+  // // Webpack configuration
+  // webpack: (config, { isServer }) => {
+  //   // Handle WebSocket and Matrix SDK in browser
+  //   if (!isServer) {
+  //     config.resolve.fallback = {
+  //       ...config.resolve.fallback,
+  //       fs: false,
+  //       path: false,
+  //       crypto: false,
+  //       stream: false,
+  //       util: false,
+  //       buffer: require.resolve('buffer'),
+  //     }
+  //   }
 
-    // Handle file uploads
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      '@': require('path').resolve(__dirname, './src'),
-    }
+  //   // Handle file uploads
+  //   config.resolve.alias = {
+  //     ...config.resolve.alias,
+  //     '@': require('path').resolve(__dirname, './src'),
+  //   }
 
-    return config
+  //   return config
+  // },
+
+  turbopack: {
+    resolveAlias:{
+      '@': './src'
+    }
   },
 
   // Security headers
@@ -145,8 +149,8 @@ const nextConfig = {
   // Static file serving
   trailingSlash: false,
   
-  // Enable SWC minification
-  swcMinify: true,
+  // // Enable SWC minification
+  // swcMinify: true,
 
   // PoweredBy header
   poweredByHeader: false,
